@@ -1,0 +1,163 @@
+---
+documentclass: article
+classoption: a4paper
+geometry: "left=1.9cm,right=1.9cm,top=1.78cm,bottom=1.27cm"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+params:
+  address: 'Blk 641B Punggol Dr #10-315 Singapore 822641'
+  mobile: '(65) 9129 2887'
+  email: 'guanglei.deng@gmail.com'
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tools)
+```
+
+<style>
+body > *{
+    width: 17.83cm;
+}
+table {
+    width: 100%;
+}
+th{
+    font-weight: normal;
+    text-align: left;
+}
+.header{
+    display: none;
+}
+td, th, em{
+    white-space: nowrap;
+}
+.main-info > * {
+    display: inline-block;
+}
+.main-info td:nth-child(n+1) {
+    width: 2.53cm;
+}
+.name h1 {
+    display: inline-block;
+    -vertical-align: top;
+}
+.name h1:first-letter {
+    font-size: 120%;
+}
+.name h1::after{
+    content: " "
+}
+.contact {
+    text-align: right;
+    font-size: 80%;
+}
+hr {
+    margin-top: 0;
+}
+</style>
+
+<br>
+<br>
+<br>
+
+
+<table class="main-info">
+<tr class="name">
+<td><h1>DENG</h1><h1>GUANGLEI</h1></td>
+<td><span style="color: white;">`r md5sum(knitr::current_input() )`</span></td>
+<td class="contact">`r params$address`<br>`r params$mobile`<br>`r params$email`</td>
+</tr>
+</table>
+---
+### SUMMARY
+A Self-Motivated Problem Solver with Excellent Understanding of Computer Science, Outstanding Programming Skills and Great Passion in Quant, Mathematics and Data Science. With broad knowledge scope from Systems to Financial Products and Broader Economics.
+
+### EDUCATION
+Year   |Description                 | Institute
+-------|----------------------------|-----------
+Present| **CFA** Level III Candidate | *CFA Institute*
+2013   | MSc in Applied Economics<br>GPA: 3.97 / 4.0, Dean's List | *Singapore Management University*
+2008   | BEng in Electrical & Electronic Engineering<br>First Class Honours, Full MOE Scholarship, Dean's List | *Nanyang Technological University*
+2004   | Bridging Course for PRC Scholars<br>Top 10%, Accelerated Program |*National Institute of Education*
+
+### SKILLS
+#### Information Technology
+* Python, C#, C++, Javascript, R, SQL, Java, MatLab, VBA, Scala
+* Data Analytics, Data Science and Machine Learning
+* Automation, Web Development, System Analysis, Solution Architecture
+
+#### Econometrics / Economics / Finance
+*	Linear Algebra, Statistics, Regression / Forecasting
+*	Economics: Microeconomics, Macroeconomics, Monetary Economics, Mathematical Economics
+*	Finance: Financial Statement Analysis, Valuation Models, Financial Products, Corporate Finance, Portfolio Theory, Risk Management, Financial Engineering
+
+#### LANGUAGES
+ONE|TWO|THREE
+---|---|-----
+**Chinese**: Native|**English**: Fluent|**Japanese**: Basic (JLPT4)
+
+#### SELECTED ACADEMIC PRIZES
+Prize|Organization|Year
+-----|------------|----
+**President Research Scholarship**|*Nanyang Technological University*|2005
+**National Second Prize**|*The 20th Chinese Physics Olympiad*|2003
+
+*******
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+#### EXPERIENCES
+
+Year|Title|Company
+----|-----|-------
+06/2016 to Present|**Associate, FCC Analytics**|*Standard Chartered Bank*
+
+* Independently designed and set up Linux infrastructure for handling data generation tasks, analytics and web services (using Python, RQ, Supervisord, Nginx, etc)
+* Developed automation scripts in Python
+* Developed Python packages for modeling and analyzing various types of transaction messages, customer records and screening alerts
+* Developed scripts for data management using multiple formats and/or databases (e.g. csv, json, Parquet, Oracle DB, MongoDB, MonetDB)
+* Developed analytics scripts for data analysis and visualization (using pandas, pyarrow, html, D3.js)
+* Developed web interfaces for triggering and monitoring server jobs, presenting analysis reports, developing and testing rules (using Flask, AngularJS, etc)
+* Helped team to achieve higher productivity by optimizing JIRA workflow and writing scripts for managing JIRA issues and Confluence pages
+
+Year|Title|Company
+----|-----|-------
+05/2014 to 06/2016|**Software Development Team Lead**|*Decision Support Systems Pte. Ltd.*
+
+* Developed C++ Interface Application with SGX REACH Trading System for Order Routing and Real-time Market Data Feed
+* Developed C# Data Processing Pipeline to Manage Order / Contract / Market Data for Credit Control / Risk Management / Regulatory Compliance
+* Designed Reports / Alerts for Real-time Risk Management
+* Developed C# Client Application for Data Presentation
+* Developed C# Real-time Risk Engine for Automated Risk Management Event Triggering
+* Developed Data Collection (e.g. Web Crawler in Python) Scripts to Support Business Analysis
+* Developing Data Integrity Tools in Python
+* Led Development Team to Implement Data Warehouse System
+* Implementing Standard Operation Procedures, Knowledge Management and Team Collaboration Platform
+* Devised Strategic Plans for Vertical and Horizontal Business Expansions
+* Set Up and Carried Out Plans for Human Resource Development
+
+Year|Title|Company
+----|-----|-------
+08/2008 to 05/2014|**Factory Automation Engineer / Senior Engineer**|*GlobalFoundries Singapore Pte. Ltd.*
+
+* Analyzed Manufacturing Data to Extract Production Statistics
+* Utilized Dataflow Software to Code Logic Rules for Processing Real-time Manufacturing Data to Generate Decisions
+* Coded Workflows for Automated Manufacturing Decision Execution
+* Carried Out Projects to Boost Factory Automation Level
+* Worked on an Innovative Project to Transform Real-time Decision Making into Predicative Decision Making
+* Reviewed and Improved Manufacturing Objectives like Product Cycle Time, Equipment Utilization, Product Quality, etc.
+* Reviewed and Reduced Execution Time of Critical Data Crunching Rules by 50%
+* Developed and Implemented Logistic / Routing Solutions for Fully Automated Material Delivery
+* Trained Engineers for New Factory Startup in US
