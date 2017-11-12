@@ -64,11 +64,10 @@ hr {
 <br>
 <br>
 
-
 <table class="main-info">
 <tr class="name">
 <td><h1>DENG</h1><h1>GUANGLEI</h1></td>
-<td><span style="color: white;">`r md5sum(knitr::current_input() )`</span></td>
+<td><span style="display: none;">placeholder</span></td>
 <td class="contact">`r params$address`<br>`r params$mobile`<br>`r params$email`</td>
 </tr>
 </table>
@@ -161,3 +160,5 @@ Year|Title|Company
 * Reviewed and Reduced Execution Time of Critical Data Crunching Rules by 50%
 * Developed and Implemented Logistic / Routing Solutions for Fully Automated Material Delivery
 * Trained Engineers for New Factory Startup in US
+
+<span style="color: white; font-size: 60%">md5: `r md5sum(knitr::current_input() )`</span>
