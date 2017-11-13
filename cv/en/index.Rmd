@@ -89,8 +89,8 @@ Present| **CFA** Level III Candidate | *CFA Institute*
 * Data Analytics, Data Science and Machine Learning
 * Automation, Web Development, System Analysis, Solution Architecture
 
-#### Econometrics / Economics / Finance
-*	Linear Algebra, Statistics, Regression / Forecasting
+#### Others
+*	Econometrics: Linear Algebra, Statistics, Optimization, Regression / Forecasting
 *	Economics: Microeconomics, Macroeconomics, Monetary Economics, Mathematical Economics
 *	Finance: Financial Statement Analysis, Valuation Models, Financial Products, Corporate Finance, Portfolio Theory, Risk Management, Financial Engineering
 
@@ -99,7 +99,7 @@ ONE|TWO|THREE
 ---|---|-----
 **Chinese**: Native|**English**: Fluent|**Japanese**: Basic (JLPT4)
 
-#### SELECTED ACADEMIC PRIZES
+### SELECTED ACADEMIC PRIZES
 Prize|Organization|Year
 -----|------------|----
 **President Research Scholarship**|*Nanyang Technological University*|2005
@@ -117,7 +117,7 @@ Prize|Organization|Year
 <br>
 <br>
 
-#### EXPERIENCES
+### EXPERIENCES
 
 Year|Title|Company
 ----|-----|-------

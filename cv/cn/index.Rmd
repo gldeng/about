@@ -1,0 +1,158 @@
+---
+documentclass: article
+classoption: a4paper
+geometry: "left=1.9cm,right=1.9cm,top=1.78cm,bottom=1.27cm"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+params:
+  address: 'Blk 641B Punggol Dr #10-315 Singapore 822641'
+  mobile: '(65) 9129 2887'
+  email: 'guanglei.deng@gmail.com'
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tools)
+```
+
+<style>
+body > *{
+    width: 17.83cm;
+}
+table {
+    width: 100%;
+}
+th{
+    font-weight: normal;
+    text-align: left;
+}
+.header{
+    display: none;
+}
+td, th, em{
+    white-space: nowrap;
+}
+.main-info > * {
+    display: inline-block;
+}
+.main-info td:nth-child(n+1) {
+    width: 5.4cm;
+}
+.name h1 {
+    display: inline-block;
+    -vertical-align: top;
+}
+.name h1:first-letter {
+    font-size: 120%;
+}
+.name h1::after{
+    content: " "
+}
+.contact {
+    text-align: right;
+    font-size: 80%;
+}
+hr {
+    margin-top: 0;
+}
+</style>
+
+<br>
+<br>
+<br>
+
+<table class="main-info">
+<tr class="name">
+<td><h1>邓光磊</h1></td>
+<td><span style="display: none;">placeholder</span></td>
+<td class="contact">`r params$address`<br>`r params$mobile`<br>`r params$email`</td>
+</tr>
+</table>
+---
+### 概述
+拥有扎实的数理与编程基础以及杰出的问题解决与创新能力。深入了解计算机科学。拥有丰富的工程系统、软件开发与数据分析经验。兼具丰富的经济与金融知识。对前沿科技拥有巨大的热情。
+
+### 教育背景
+Year   |Description                 | Institute
+-------|----------------------------|-----------
+2011   | 通过**注册金融分析师CFA**二级考试 | *CFA 协会*
+2013   | 应用经济学硕士<br>成绩GPA：3.97 / 4.0，院长名单 | *新加坡管理大学*
+2008   | 电子与电气工程学士<br>一等荣誉学位，新加坡教育部全额奖学金 | *南洋理工大学*
+2004   | 中国奖学金得主预科<br>前10%，快班 |*新加坡教育学院*
+
+### 技能
+#### 信息技术
+* Python、C#、C++、Javascript、R、SQL、Java、MatLab、Scala
+* 数据分析、数据科学与机器学习
+* 自动化、网络开发、系统分析、解决方案设计
+
+#### 其他
+*	线性代数、统计、优化、回归与预测
+*	微观经济学、宏观经济学、货币经济学、数理经济学
+*	财务报表分析、定价模型、金融产品、公司财务、投资组合、风险管理、金融工程
+
+#### 语言
+流利的中英文语言能力与基本的日语语言能力（JLPT四级）
+
+### 部分学术获奖
+Prize|Organization|Year
+-----|------------|----
+**本科生研究计划**|*南洋理工大学*|2005
+**国家级二等奖**|*第二十届全国中学生物理竞赛（中国）*|2003
+
+*******
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+### 工作经历
+
+Year|Title|Company
+----|-----|-------
+2016年6月 至今|**Associate, FCC Analytics**|*新加坡渣打银行*
+
+* 帮助各支付系统接入最新的交易过滤引擎，主要负责交易合规警报与客户KYC警报的分析与优化
+* 独立设计并实施全流程自动化系统，其步骤包括警报生成、分析、假阳性警报识别规则的生成与管理
+* 编写各种Python自动化脚本以及开发包括数据建模、分析与报告生成等功能的Python包
+* 帮助本团队完成数据量较大的各种数据分析任务
+* 帮助团队采用JIRA、Confluence、STASH等工具以及监控团队成员任务、优化工作效率、提高工作质量、完成合规需求等
+* 使用技术包括Python、Nginx、pandas、parquet、Oracle DB、MongoDB、 MonetDB、Flask、AngularJS、D3.js等
+
+Year|Title|Company
+----|-----|-------
+2014年5月 至 2016年6月|**Software Development Team Lead**|*Decision Support Systems Pte. Ltd.*
+
+* 负责风险管理系统（券商）的技术以及新客户的系统接入等事务
+* 用C++重写了用于接入新加坡交易所的连接程序以获得交易、价格以及成交量等数据
+* 对原有系统进行了整体分析、标准化并用C#重写了整个业务逻辑以达到近实时的更新
+* 用C#编写用于信用控制、风险管理以及合规等各部门的客户端程序
+* 带领团队构建数据仓库系统
+* 帮助公司优化管理系统、建立标准化流程、建立知识分享及团队协作系统
+* 参与公司的战略分析以及人员培训等事宜
+
+Year|Title|Company
+----|-----|-------
+2008年8月 至 2014年5月|**自动化工程师／高级工程师**|*格罗方德新加坡*
+
+* 主要负责全自动化生产线的实时生产决策规则的编写
+* 工作内容包括分析生产数据、编写数据流逻辑并生成材料派送决策
+* 参与多个提高自动化水平的项目
+* 参与开发新一代预测性的决策系统
+* 帮助降低产品生产周期、提高机器使用率以及提高产品良率
+* 支持临时性的物料配送路线设计等项目
+* 为新工厂上线培训新员工
+
+<span style="color: white; font-size: 60%">md5: `r md5sum(knitr::current_input() )`</span>
