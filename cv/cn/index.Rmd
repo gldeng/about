@@ -38,6 +38,21 @@ td, th, em{
 .main-info > * {
     display: inline-block;
 }
+.main_info tr {
+    height: 4cm;
+}
+img {
+  width: 3cm;
+  height: auto;
+  display: inline-block;
+}
+.main-info {
+  margin-left: 0.8cm;
+  width: 13cm;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
 .main-info td:nth-child(n+1) {
     width: 5.4cm;
 }
@@ -61,16 +76,17 @@ hr {
 </style>
 
 <br>
-<br>
-<br>
 
+<div>
+![](photo.png)
 <table class="main-info">
-<tr class="name">
-<td><h1>邓光磊</h1></td>
+<tr>
+<td class="name"><h1>邓光磊</h1></td>
 <td><span style="display: none;">placeholder</span></td>
 <td class="contact">`r params$address`<br>`r params$mobile`<br>`r params$email`</td>
 </tr>
 </table>
+</div>
 ---
 ### 概述
 拥有扎实的数理与编程功底以及杰出的问题解决与创新能力。深入了解计算机科学。拥有丰富的工程系统、软件开发与数据分析经验。兼具丰富的经济与金融知识。对前沿科技拥有巨大的热情。
