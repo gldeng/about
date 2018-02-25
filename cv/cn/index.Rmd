@@ -112,10 +112,6 @@ Prize|Organization|Year
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 
 ### 工作经历
 
