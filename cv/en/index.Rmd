@@ -85,7 +85,7 @@ Present| **CFA** Level III Candidate | *CFA Institute*
 
 ### SKILLS
 #### Information Technology
-* Python, C#, C++, Javascript, R, SQL, Java, MatLab, VBA, Scala
+* Python, C#, Scala, C++, Java, Javascript, R, SQL
 * Data Analytics, Data Science and Machine Learning
 * Automation, Web Development, System Analysis, Solution Architecture
 
@@ -121,7 +121,29 @@ Prize|Organization|Year
 
 Year|Title|Company
 ----|-----|-------
-06/2016 to Present|**Associate, FCC Analytics**|*Standard Chartered Bank*
+07/2019 to present|**Developer**|*Bank of America Merill Lynch*
+
+* Analyzed graph database source and developed queries/scripts for sourcing Indonesian entities into local trading system
+* Developed scala application for ingesting data from local trading system into Hive data warehouse
+* Developed spark rules for data reconciliation
+* Modified python scripts for sourcing reference data into Quartz platform
+
+Year|Title|Company
+----|-----|-------
+04/2018 to 07/2019|**Chief Architect**|*Aelf Pte Ltd*
+
+* Leading the design, architecting and development of a high-throughput public blockchain project
+* Developed a smart contract development and execution platform based on .NET Core and Protobuf
+* Developed C++ Protobuf plugin for smart contract generation from proto files
+* Developed a Javascript library for dApp to interact with the blockchain
+* Developed a C# CLI tool with embedded Javascript engine for interacting with the blockchain
+* Performed in-depth research on blockchain core concepts (cryptography, networking and virtual machines, etc.)
+* Handling technical matters with partners
+
+
+Year|Title|Company
+----|-----|-------
+06/2016 to 04/2018|**Associate, FCC Analytics**|*Standard Chartered Bank*
 
 * Independently designed and set up Linux infrastructure for handling data generation tasks, analytics and web services (using Python, RQ, Supervisord, Nginx, etc)
 * Developed automation scripts in Python
