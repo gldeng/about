@@ -366,6 +366,11 @@ summary {
 
 
 <style>
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
 body > *{
     width: 17.83cm;
 }
@@ -375,6 +380,21 @@ table {
 th{
     font-weight: normal;
     text-align: left;
+}
+td:nth-of-type(1n) {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+td:nth-of-type(2n) {
+  text-align: left;
+  width: 100%;
+}
+td:nth-of-type(3n) {
+  width: 240px;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .header{
     display: none;
@@ -406,7 +426,7 @@ hr {
     margin-top: 0;
 }
 </style>
-<p><br> <br> <br></p>
+<p><br></p>
 <table class="main-info">
 <tr class="name">
 <td>
@@ -421,7 +441,7 @@ GUANGLEI
 <span style="display: none;">placeholder</span>
 </td>
 <td class="contact">
-Blk 641B Punggol Dr #10-315 Singapore 822641<br>(65) 9129 2887<br><a href="mailto:guanglei.deng@gmail.com" class="email">guanglei.deng@gmail.com</a>
+Blk 641B Punggol Dr #10-315 Singapore 822641<br>(65) 9129 2887<br><a href="mailto:guanglei.deng@gmail.com" class="email">guanglei.deng@gmail.com</a><br>github.com/gldeng
 </td>
 </tr>
 </table>
@@ -449,89 +469,32 @@ Blk 641B Punggol Dr #10-315 Singapore 822641<br>(65) 9129 2887<br><a href="mailt
 <tr class="odd">
 <td>Present</td>
 <td><strong>CFA</strong> Level III Candidate</td>
-<td><em>CFA Institute</em></td>
+<td>CFA Institute</td>
 </tr>
 <tr class="even">
 <td>2013</td>
 <td>MSc in Applied Economics<br>GPA: 3.97 / 4.0, Dean’s List</td>
-<td><em>Singapore Management University</em></td>
+<td>Singapore Management University</td>
 </tr>
 <tr class="odd">
 <td>2008</td>
 <td>BEng in Electrical &amp; Electronic Engineering<br>First Class Honours, Full MOE Scholarship, Dean’s List</td>
-<td><em>Nanyang Technological University</em></td>
+<td>Nanyang Technological University</td>
 </tr>
 <tr class="even">
 <td>2004</td>
 <td>Bridging Course for PRC Scholars<br>Top 10%, Accelerated Program</td>
-<td><em>National Institute of Education</em></td>
+<td>National Institute of Education</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div id="skills" class="section level3">
 <h3>SKILLS</h3>
-<div id="information-technology" class="section level4">
-<h4>Information Technology</h4>
 <ul>
 <li>Python, C#, Scala, C++, Java, Javascript, R, SQL</li>
-<li>Data Analytics, Data Science and Machine Learning</li>
-<li>Automation, Web Development, System Analysis, Solution Architecture</li>
+<li>Full Stack Development, Software Architecture, Big Data, Data Science</li>
 </ul>
-</div>
-<div id="others" class="section level4">
-<h4>Others</h4>
-<ul>
-<li>Econometrics: Linear Algebra, Statistics, Optimization, Regression / Forecasting</li>
-<li>Economics: Microeconomics, Macroeconomics, Monetary Economics, Mathematical Economics</li>
-<li>Finance: Financial Statement Analysis, Valuation Models, Financial Products, Corporate Finance, Portfolio Theory, Risk Management, Financial Engineering</li>
-</ul>
-</div>
-<div id="languages" class="section level4">
-<h4>LANGUAGES</h4>
-<table>
-<thead>
-<tr class="header">
-<th>ONE</th>
-<th>TWO</th>
-<th>THREE</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Chinese</strong>: Native</td>
-<td><strong>English</strong>: Fluent</td>
-<td><strong>Japanese</strong>: Basic (JLPT4)</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="selected-academic-prizes" class="section level3">
-<h3>SELECTED ACADEMIC PRIZES</h3>
-<table>
-<thead>
-<tr class="header">
-<th>Prize</th>
-<th>Organization</th>
-<th>Year</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>President Research Scholarship</strong></td>
-<td><em>Nanyang Technological University</em></td>
-<td>2005</td>
-</tr>
-<tr class="even">
-<td><strong>National Second Prize</strong></td>
-<td><em>The 20th Chinese Physics Olympiad</em></td>
-<td>2003</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<p><br> <br> <br> <br> <br> <br> <br> <br> <br></p>
 </div>
 <div id="experiences" class="section level3">
 <h3>EXPERIENCES</h3>
@@ -547,7 +510,7 @@ Blk 641B Punggol Dr #10-315 Singapore 822641<br>(65) 9129 2887<br><a href="mailt
 <tr class="odd">
 <td>07/2019 to present</td>
 <td><strong>Developer</strong></td>
-<td><em>Bank of America Merill Lynch</em></td>
+<td>Bank of America Merill Lynch</td>
 </tr>
 </tbody>
 </table>
@@ -569,7 +532,7 @@ Blk 641B Punggol Dr #10-315 Singapore 822641<br>(65) 9129 2887<br><a href="mailt
 <tr class="odd">
 <td>04/2018 to 07/2019</td>
 <td><strong>Chief Architect</strong></td>
-<td><em>Aelf Pte Ltd</em></td>
+<td>Aelf Pte Ltd</td>
 </tr>
 </tbody>
 </table>
@@ -594,7 +557,7 @@ Blk 641B Punggol Dr #10-315 Singapore 822641<br>(65) 9129 2887<br><a href="mailt
 <tr class="odd">
 <td>06/2016 to 04/2018</td>
 <td><strong>Associate, FCC Analytics</strong></td>
-<td><em>Standard Chartered Bank</em></td>
+<td>Standard Chartered Bank</td>
 </tr>
 </tbody>
 </table>
@@ -624,7 +587,7 @@ Blk 641B Punggol Dr #10-315 Singapore 822641<br>(65) 9129 2887<br><a href="mailt
 <tr class="odd">
 <td>05/2014 to 06/2016</td>
 <td><strong>Software Development Team Lead</strong></td>
-<td><em>Decision Support Systems Pte. Ltd.</em></td>
+<td>Decision Support Systems Pte. Ltd.</td>
 </tr>
 </tbody>
 </table>
@@ -657,8 +620,8 @@ Blk 641B Punggol Dr #10-315 Singapore 822641<br>(65) 9129 2887<br><a href="mailt
 <tbody>
 <tr class="odd">
 <td>08/2008 to 05/2014</td>
-<td><strong>Factory Automation Engineer / Senior Engineer</strong></td>
-<td><em>GlobalFoundries Singapore Pte. Ltd.</em></td>
+<td><strong>Sr. Factory Automation Engineer</strong></td>
+<td>GlobalFoundries Singapore Pte. Ltd.</td>
 </tr>
 </tbody>
 </table>
@@ -673,7 +636,7 @@ Blk 641B Punggol Dr #10-315 Singapore 822641<br>(65) 9129 2887<br><a href="mailt
 <li>Developed and Implemented Logistic / Routing Solutions for Fully Automated Material Delivery</li>
 <li>Trained Engineers for New Factory Startup in US</li>
 </ul>
-<p><span style="color: white; font-size: 60%">md5: e8ae859c5f69a797ead1757592294db3</span></p>
+<p><span style="color: white; font-size: 60%">md5: f0345d6308e8df1270b24c544039d87e</span></p>
 </div>
 
 

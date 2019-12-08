@@ -10,15 +10,22 @@ params:
   address: 'Blk 641B Punggol Dr #10-315 Singapore 822641'
   mobile: '(65) 9129 2887'
   email: 'guanglei.deng@gmail.com'
+  github: 'github.com/gldeng'
 ---
 
 
 ```{r setup, include=FALSE}
+options(Encoding="UTF-8")
 knitr::opts_chunk$set(echo = TRUE)
 library(tools)
 ```
 
 <style>
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
 body > *{
     width: 17.83cm;
 }
@@ -28,6 +35,21 @@ table {
 th{
     font-weight: normal;
     text-align: left;
+}
+td:nth-of-type(1n) {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+td:nth-of-type(2n) {
+  text-align: left;
+  width: 100%;
+}
+td:nth-of-type(3n) {
+  width: 240px;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .header{
     display: none;
@@ -59,16 +81,13 @@ hr {
     margin-top: 0;
 }
 </style>
-
-<br>
-<br>
 <br>
 
 <table class="main-info">
 <tr class="name">
 <td><h1>DENG</h1><h1>GUANGLEI</h1></td>
 <td><span style="display: none;">placeholder</span></td>
-<td class="contact">`r params$address`<br>`r params$mobile`<br>`r params$email`</td>
+<td class="contact">`r params$address`<br>`r params$mobile`<br>`r params$email`<br>`r params$github`</td>
 </tr>
 </table>
 ---
@@ -78,50 +97,20 @@ A Self-Motivated Problem Solver with Excellent Understanding of Computer Science
 ### EDUCATION
 Year   |Description                 | Institute
 -------|----------------------------|-----------
-Present| **CFA** Level III Candidate | *CFA Institute*
-2013   | MSc in Applied Economics<br>GPA: 3.97 / 4.0, Dean's List | *Singapore Management University*
-2008   | BEng in Electrical & Electronic Engineering<br>First Class Honours, Full MOE Scholarship, Dean's List | *Nanyang Technological University*
-2004   | Bridging Course for PRC Scholars<br>Top 10%, Accelerated Program |*National Institute of Education*
+Present| **CFA** Level III Candidate | CFA Institute
+2013   | MSc in Applied Economics<br>GPA: 3.97 / 4.0, Dean's List | Singapore Management University
+2008   | BEng in Electrical & Electronic Engineering<br>First Class Honours, Full MOE Scholarship, Dean's List | Nanyang Technological University
+2004   | Bridging Course for PRC Scholars<br>Top 10%, Accelerated Program |National Institute of Education
 
 ### SKILLS
-#### Information Technology
 * Python, C#, Scala, C++, Java, Javascript, R, SQL
-* Data Analytics, Data Science and Machine Learning
-* Automation, Web Development, System Analysis, Solution Architecture
-
-#### Others
-*	Econometrics: Linear Algebra, Statistics, Optimization, Regression / Forecasting
-*	Economics: Microeconomics, Macroeconomics, Monetary Economics, Mathematical Economics
-*	Finance: Financial Statement Analysis, Valuation Models, Financial Products, Corporate Finance, Portfolio Theory, Risk Management, Financial Engineering
-
-#### LANGUAGES
-ONE|TWO|THREE
----|---|-----
-**Chinese**: Native|**English**: Fluent|**Japanese**: Basic (JLPT4)
-
-### SELECTED ACADEMIC PRIZES
-Prize|Organization|Year
------|------------|----
-**President Research Scholarship**|*Nanyang Technological University*|2005
-**National Second Prize**|*The 20th Chinese Physics Olympiad*|2003
-
-*******
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+* Full Stack Development, Software Architecture, Big Data, Data Science
 
 ### EXPERIENCES
 
 Year|Title|Company
 ----|-----|-------
-07/2019 to present|**Developer**|*Bank of America Merill Lynch*
+07/2019 to present|**Developer**|Bank of America Merill Lynch
 
 * Analyzed graph database source and developed queries/scripts for sourcing Indonesian entities into local trading system
 * Developed scala application for ingesting data from local trading system into Hive data warehouse
@@ -130,7 +119,7 @@ Year|Title|Company
 
 Year|Title|Company
 ----|-----|-------
-04/2018 to 07/2019|**Chief Architect**|*Aelf Pte Ltd*
+04/2018 to 07/2019|**Chief Architect**|Aelf Pte Ltd
 
 * Leading the design, architecting and development of a high-throughput public blockchain project
 * Developed a smart contract development and execution platform based on .NET Core and Protobuf
@@ -143,7 +132,7 @@ Year|Title|Company
 
 Year|Title|Company
 ----|-----|-------
-06/2016 to 04/2018|**Associate, FCC Analytics**|*Standard Chartered Bank*
+06/2016 to 04/2018|**Associate, FCC Analytics**|Standard Chartered Bank
 
 * Independently designed and set up Linux infrastructure for handling data generation tasks, analytics and web services (using Python, RQ, Supervisord, Nginx, etc)
 * Developed automation scripts in Python
@@ -155,7 +144,7 @@ Year|Title|Company
 
 Year|Title|Company
 ----|-----|-------
-05/2014 to 06/2016|**Software Development Team Lead**|*Decision Support Systems Pte. Ltd.*
+05/2014 to 06/2016|**Software Development Team Lead**|Decision Support Systems Pte. Ltd.
 
 * Developed C++ Interface Application with SGX REACH Trading System for Order Routing and Real-time Market Data Feed
 * Developed C# Data Processing Pipeline to Manage Order / Contract / Market Data for Credit Control / Risk Management / Regulatory Compliance
@@ -171,7 +160,7 @@ Year|Title|Company
 
 Year|Title|Company
 ----|-----|-------
-08/2008 to 05/2014|**Factory Automation Engineer / Senior Engineer**|*GlobalFoundries Singapore Pte. Ltd.*
+08/2008 to 05/2014|**Sr. Factory Automation Engineer**|GlobalFoundries Singapore Pte. Ltd.
 
 * Analyzed Manufacturing Data to Extract Production Statistics
 * Utilized Dataflow Software to Code Logic Rules for Processing Real-time Manufacturing Data to Generate Decisions
